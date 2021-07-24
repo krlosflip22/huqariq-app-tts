@@ -27,9 +27,9 @@ A continuación se muestra las interfaces del módulo de registro.
 
 ## Módulo de TTS con Avatar
 
-El módulo de grabación permite a los usuarios grabar sus voces en su respectivo dialecto, ya que a la hora de registrarse Huqariq verifica la variedad dialectica la cual habla y en base a eso la aplcación le envia los audios en su dialecto.
+El módulo de TTS permite a los usuarios escribir texto en su respectivo dialecto, ya que a la hora de registrarse Huqariq verifica la variedad dialectica la cual habla y en base a eso la aplcación le envia los audios en su dialecto.
 
-A continuación se muestra las interfaces del módulo de grabación.
+A continuación se muestra las interfaces del módulo de TTS.
 
 ![screenshot](README/images/u2.png)
 
