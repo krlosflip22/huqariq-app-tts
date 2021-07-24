@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <include
+        android:layout_marginTop="@dimen/normal_space"
+        android:id="@+id/stepper"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        layout="@layout/stepper_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </include>
+    <FrameLayout
+        app:layout_constraintTop_toBottomOf="@+id/stepper"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/fooFragment"
+        android:layout_width="match_parent"
+        app:layout_constraintBottom_toTopOf="@id/bottonera"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:id="@+id/bottonera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_gravity="bottom"
+       android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/buttonNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_record"
+            android:layout_gravity="end"
+            android:textColor="@color/black"
+            android:padding="@dimen/normal_space"
+            android:layout_marginEnd="@dimen/normal_space"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
