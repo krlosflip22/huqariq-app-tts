@@ -76,7 +76,7 @@ yield return audioRequest.SendWebRequest ();
 
 La versión de Unity3D a utilizar es `2019.4.20f1` platform `Android`
 
-![screenshot](README/images/u1.jpg)
+![screenshot](README/images/u1.png)
 
 Para compilar en Android se debe tener en cuenta lo siguiente:
 
