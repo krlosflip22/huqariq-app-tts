@@ -31,7 +31,7 @@ El módulo de grabación permite a los usuarios grabar sus voces en su respectiv
 
 A continuación se muestra las interfaces del módulo de grabación.
 
-![screenshot](README/images/u2.jpg)
+![screenshot](README/images/u2.png)
 
 # Entorno de configuración
 
